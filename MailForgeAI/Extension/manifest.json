@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "MailForgeAI",
+  "version": "1.0",
+  "description": "AI-powered email assistant",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "http://localhost:8080/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://mail.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
