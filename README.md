@@ -2,6 +2,10 @@
 An AI-powered email assistant that seamlessly integrates with Gmail to help you generate replies in multiple tones.
 With just one click on the "AI Reply" button inside Gmail, you can craft smart, context-aware responses powered by a local GPT model.
 
+## Sample Screenshot
+<img src="MailForgeAI/src/main/resources/static/SampleScreenshot.png" alt="AI Reply Button" height = "600" width="600"/>
+
+
 ## Tech Stack
 1. Java 17
 2. Spring Boot 3
